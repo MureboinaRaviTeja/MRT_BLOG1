@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_blue_grey_50"
+    >
+
+
+
+
+<!--
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="201dp"
+        android:src="@drawable/incube2"
+        android:layout_marginLeft="85dp"
+        />
+-->
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/incube1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InCube "
+        android:layout_marginTop="260dp"
+
+        android:layout_marginLeft="150dp"
+        android:textSize="30sp"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Any Suggestions "
+        android:layout_marginTop="300dp"
+
+        android:textSize="20sp"
+
+        />
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="350dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+
+
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="top"
+                android:hint="Your message here... "
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/send_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="#498b24"
+                android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+                android:padding="5dp"
+                android:text="Send Message "
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mravi.mrt_blog1.Activities.FeedBack">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:hint="Subject"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="43dp"
+        android:text="To"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="15dp"
+        android:text="Message:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/email"
+        android:layout_below="@+id/textView3"
+        android:gravity="top"
+        android:hint="Your message here..."
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#498b24"
+        android:drawableRight="@drawable/person"
+        android:padding="5dp"
+        android:text="Send Message "
+        android:textColor="#fff" />
+</RelativeLayout>
+
+    -->

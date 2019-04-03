@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AGI_BLOG</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_title">LOGIN</string>
+    <string name="create_act">Create Account</string>
+    <string name="post_title">Post Title</string>
+    <string name="post_description">Post Description</string>
+    <string name="submit_text">SUBMIT Post</string>
+    <string name="click_me">click here</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+
+
+
+
+
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+    <string name="post_description_research">Post Description Research</string>
+    <string name="descriptionannouncemnt">post description announcement</string>
+    <string name="articles">ARTICLES</string>
+
+
+
+
+
+    <!--ads-->
+
+    <string name="banner_ad_unit_id">ca-app-pub-1330885432702758/3366215356</string>
+
+
+
+    <item name="visible"  type="id"/>
+    <item name="masked" type="id"/>
+</resources>
